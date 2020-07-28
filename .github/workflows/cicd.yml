@@ -67,5 +67,5 @@ jobs:
         aws s3 cp . s3://jr-lms-demo/ --recursive
       env:
         AWS_DEFAULT_REGION: ap-southeast-2
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.AccesskeyID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.Secretaccesskey }}
